@@ -4,4 +4,4 @@
 
  ## A Gentle Introduction to Machine Learning
  
- <img src="/home/emre/Pictures/decisiontree.png">
+ <img src="https://imgur.com/vSYZ0py.png">
