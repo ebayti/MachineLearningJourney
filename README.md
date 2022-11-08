@@ -154,6 +154,6 @@ and $$suprise=log{\frac{1}{p(x)}} $$
 
 $$Entropy=  \sum(p(x))log{\frac{1}{p(x)}}$$
 
-after some more derivation;
+after some derivation it becomes;
 
-$$ Entropy= -\sigma(p(x)log{p(x)})
+$$ Entropy= -\sum(p(x)log{p(x)})
