@@ -41,7 +41,7 @@ Training the algorithm with the whole data is a big mistake!
 *False positives*: Healthy but the alogorithm classified as a patient
 *False negatives*:Patient but the algorithm classified as healthy
 
-| _Confusion Matrix_ 	| **Patient** 	| **Healhty** 	|
+| _Confusion Matrix_ 	| **Actual Patient** 	| **Actual Healhty** 	|
 |:---:	|:---:	|:---:	|
-| **Patient** 	| 142 	| 22 	|
-| **Healhty** 	| 29 	| 110 	|
+| **Predicted Patient** 	| 142 	| 22 	|
+| **Predicted Healhty** 	| 29 	| 110 	|
