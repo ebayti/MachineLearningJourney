@@ -119,8 +119,6 @@ True Negatives= 209 --> people did not pick Troll 2 as their favorite and our mo
 
 False Positives= 195 --> people did not pick Troll 2 as their favorite and our favorite but our algorithm predicted Troll 2
 
-
-
 ## Bias and Variance
 Let's look at the following graph. It shows the relationship between a mice's height and weight.
 
@@ -128,8 +126,28 @@ Let's look at the following graph. It shows the relationship between a mice's he
 <img src="https://imgur.com/2QJuac9.png" /> 
 </a>
 
-However, we are going to approximate the relationship between the two parameters with two machine learning methods.(after splitting the data into two as training and testing)
+However, we are going to approximate the relationship between the two parameters with a machine learning methods.(after splitting the data into two as training and testing)
 
-#### 1- Linear Regression (least squares)
+##### Linear Regression (least squares)
 <img src="https://imgur.com/rSR2cG1.png">
-With the training set, we are able to draw this line $$Y= \Beta0+ \Beta X $$
+
+#### Bias
+With the training set, we are able to draw this line (Y=mx+b).
+Of course, such a line is not covering the real relationship. And it cannot, no matter how much we train the data. This inability is called as **bias**.
+
+We can calculate the bias by calculating the sums of squares. In other words, calculate the distances of data points to the regression line, square them and get the sum.
+<img src="https://imgur.com/D8aLP2z.png" alt="sums of squares" />
+
+#### Variance
+The difference between the sum of squares of the testing and training data is **variance**
+<img src="https://imgur.com/ukvUK85.png" />
+
+To have a _low bias_ and _low variance_ we will resort to **regularization, boosting** and **bagging**.
+
+## Entropy
+- Basically it quantifies similarities and differences.
+--> Expected suprise for each event.
+
+You can derive entropy with 
+$$probability= (P(x))$$ 
+and $$suprise=log{\frac{1}{P(x)}} $$
