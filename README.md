@@ -25,6 +25,10 @@
 
 * First, estimate the parameters: training part
 * Second, evaluate the method:  testing the algorithm 
+* Results will reveal what to use:
+<img src="https://imgur.com/ks7yCRI.png">
+
+Training the algorithm with the whole data is a big mistake!
 
     -   Four-Fold Cross Validation (25% - 75%)
     -   Leave One Out Cross Validaion (1% - 99%) _not really popular_
