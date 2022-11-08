@@ -45,5 +45,4 @@ Training the algorithm with the whole data is a big mistake!
             | Item         | Price     | # In stock |
             |--------------|:---------:|:----------:|
             | Juicy Apples | 1.99      | *7*        |
-Prediction  |                                       |
             | Bananas      | **1.89**  | 5234       |
