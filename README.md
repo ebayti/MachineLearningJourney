@@ -163,3 +163,19 @@ Entropy is highest when same number of different events, and it decreases when t
 
 # Linear Regression
 
+<a>> It is good to know the trend of our data, or even have a summarized version of it.
+  <img src="https://imgur.com/3nYJ3tx.png" />
+</a>
+
+_But, how to find the best/optimal line_
+
+#### Generic line equation
+$$Y=mx+b$$
+m-> slope of the line
+b-> intercept (x=0)
+
+** For finding the optimized line, we seek to minimize sums of squared residuals**
+<img src="https://imgur.com/CDeJPVN.png" />
+They are the differences between the real data and the model.
+
+$$ Sum of squared residuals= \sum ((mx_1+b)-y_1)^2$$
