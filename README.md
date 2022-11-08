@@ -62,10 +62,29 @@ Training the algorithm with the whole data is a big mistake!
 ---
 
 ## Specificity and Sensitivity
-**Specificity**: 
+### Sensitivity
+- The percentage of the correct identification of patients.
 
-**Sensitivity**: The percentage of the correct identification. (i.e: 0.83 from the table above)
---> $$True Positives / (True Positives + False Negatives)$$
+--> $$\frac{True Positives}{True Positives + False Negatives}$$
 Thus $$142 / (124+29)$$
 $$142/171 = 0.83$$
 $$Sensitivity= 0.83$$
+
+### Specificity
+- The percentage of the correct classification of healthy people.
+
+--> Thus $$\frac{True Negatives}{True Negatives + False Positives}$$
+
+$$110 / (110+22)$$
+$$100/132 = 0.8333$$
+$$Specificity=0.83$$
+
+###### When comparing different sensitivity and specificity scores
+- Decide what is more important for you to predict or classify.
+_For example_, if correctly identifying healthy people is more important, you should stich with the high specificity.
+_On the other hand,_ if correctly identifying patients is more important, you should stich with the low sensitivity.
+
+###### More general explanation
+**Sensitivity** is the percentage of TRUE POSITIVES
+**Specificity** is the percentage of TRUE NEGATIVES
+
