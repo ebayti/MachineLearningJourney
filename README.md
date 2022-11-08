@@ -48,7 +48,7 @@ Training the algorithm with the whole data is a big mistake!
 | **Predicted Healhty** 	| 29 	| 110 	|
 
 --> This is a rough table to evaluate a model. But there are more in depth analysis for a model to be evaluated such as _specificity, sensitivity, AUC, ROC_.
-
+---
 #### 3x3 Confusion Matrix
 <img src="https://imgur.com/rXdNlz6.png">
 -   Green boxes are the ones where our model did its work.
@@ -59,3 +59,10 @@ Training the algorithm with the whole data is a big mistake!
 <a> This is a 4x4 confusion matrix since there are 4 things to predict.
   <img src="https://imgur.com/MRtg2zA.png" />
 </a>
+---
+
+## Specificity and Sensitivity
+**Specificity**: 
+
+**Sensitivity**: The percentage of the correct identification. (i.e: 0.83 from the table above)
+--> $$True positives / (True positives + False negatives)$$
