@@ -149,5 +149,9 @@ To have a _low bias_ and _low variance_ we will resort to **regularization, boos
 --> Expected suprise for each event.
 
 You can derive entropy with 
-$$probability= (P(x))$$ 
-and $$suprise=log{\frac{1}{P(x)}} $$
+$$probability= (p(x))$$ 
+and $$suprise=log{\frac{1}{p(x)}} $$
+$$ Entropy=  \sum(p(x))log{\frac{1}{p(x)}} $$
+after some more derivation;
+
+$$ Entropy= -\sigma(p(x)log{p(x)})
