@@ -194,8 +194,14 @@ $$ Sum of squared residuals= \sum ((mx_1+b)-y_1)^2$$
 3- Calculate the p-value of the $R^2$
 
 <a> This the fitted line with the equation of $y=0.1+0.78x$
+
 <img src="https://imgur.com/x5Y7AZu.png" />
+
 </a>
 
 #### $R^2$
+-> Does our _least squares_ fits the data better than the mean?
+
 $$R^2= \frac{SSR(mean)-SSR(line)}{SSR(mean)}$$
+
+$R^2$ tells us that whether we have less variation around the line than the mean. In other words, the line (a/b relationship) explains the 81% of the variation!!
