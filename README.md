@@ -51,8 +51,8 @@ Training the algorithm with the whole data is a big mistake!
 
 #### 3x3 Confusion Matrix
 <img src="https://imgur.com/rXdNlz6.png">
-- Green boxes are the ones where our model did its work.
-- Red ones are bad.
+-   Green boxes are the ones where our model did its work.
+-   Red ones are bad.
 
 **Take home message**: Size of our confusion matrix is determined by the amount of the stuff we want to predict. Thus, healthy vs patient task had 2x2 matrix, but the favorite movie task had 3x3 (since we restricted the favorite movie choice to those 3).
 
