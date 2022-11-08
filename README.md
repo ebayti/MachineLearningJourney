@@ -23,8 +23,8 @@
 ## Cross Validation
 - A comparison method that allows us to compare different machine learning methods and let us see which one will serve us the best.
 
-** First, estimate the parameters: training part
-** Second, evaluate the method:  testing part 
+* First, estimate the parameters: training part
+* Second, evaluate the method:  testing the algorithm 
 
     -   Four-Fold Cross Validation (25% - 75%)
     -   Leave One Out Cross Validaion (1% - 99%) _not really popular_
