@@ -132,4 +132,4 @@ However, we are going to approximate the relationship between the two parameters
 
 #### 1- Linear Regression (least squares)
 <img src="https://imgur.com/rSR2cG1.png">
-With the training set, we are able to draw this line $$ Y= \Beta0+ \Beta X $$
+With the training set, we are able to draw this line $$Y= \Beta0+ \Beta X $$
