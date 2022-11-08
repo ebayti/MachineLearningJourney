@@ -35,5 +35,15 @@ Training the algorithm with the whole data is a big mistake!
     -   Ten-fold cross validation (%10 - 90%) _popular kid_ 
 
 ## Confusion Matrix
-
 <img src="https://imgur.com/kMzrXSg.png">
+*True positives*: Patients that had heart disease and correctly identified by the algorithm
+*True negatives*: Healthy people that the algotithm classified as healthy
+*False positives*: Healthy but the alogorithm classified as a patient
+*False negatives*:Patient but the algorithm classified as healthy
+
+            |          -- Actual data --            |
+            | Item         | Price     | # In stock |
+            |--------------|:---------:|:----------:|
+            | Juicy Apples | 1.99      | *7*        |
+Prediction  |                                       |
+            | Bananas      | **1.89**  | 5234       |
