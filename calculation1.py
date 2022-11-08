@@ -1,4 +1,4 @@
-import math
+# import math -> no need to have it rn
 
 ## Troll 
 sensTroll= 12 /(12+112+83)
