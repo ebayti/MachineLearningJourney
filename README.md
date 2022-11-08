@@ -66,6 +66,6 @@ Training the algorithm with the whole data is a big mistake!
 
 **Sensitivity**: The percentage of the correct identification. (i.e: 0.83 from the table above)
 --> $$True Positives / (True Positives + False Negatives)$$
-Thus $$ 142 / (124+29) $$
-$$ 142/171 = 0.83 $$
-$$ Sensitivity= 0.83$$
+Thus $$142 / (124+29)$$
+$$142/171 = 0.83$$
+$$Sensitivity= 0.83$$
