@@ -93,7 +93,7 @@ _On the other hand,_ if correctly identifying patients is more important, you sh
   <img src="https://imgur.com/bTRcWnU.png" /> 
  For this type of data; we need to calculate sensitivity and specificity for each parameter.
 
-For this calculation I added <a href="calculation1.py">calculation1.py</a> script. But the logic works like the below: 
+- For this calculation I added <a href="calculation1.py">calculation1.py</a> script. But the logic works like the below: 
 ---
 
 **Sensitivity**: since this is the percentage of True Positives we are going to work with actual number of people who loved Troll 2
@@ -114,8 +114,10 @@ False Negatives= 195 --> people loved other films but our algorithm predicted Tr
 Therefore; $$Specificity = \frac{23+77+92+17}{23+77+92+17+102+93}$$
 $$Specificity=0.52$$
 
-True Negatives= people did not pick Troll 2 as their favorite and our model did predict so (23+77+92+17)
-False Positives= people did not pick Troll 2 as their favorite and our favorite but our algorithm predicted Troll 2
+True Negatives= 209 --> people did not pick Troll 2 as their favorite and our model did predict so (23+77+92+17).
+
+False Positives= 195 --> people did not pick Troll 2 as their favorite and our favorite but our algorithm predicted Troll 2
+
 
 
 
