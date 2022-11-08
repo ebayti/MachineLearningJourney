@@ -187,3 +187,15 @@ $$ Sum of squared residuals= \sum ((mx_1+b)-y_1)^2$$
 - Plot the sum of squared residuals and take their derivatives to get slope. When the $\frac{df}{dx}=0$, it is the best!
 
   <img src="https://imgur.com/tFd55ix.png" />
+
+#### The main ideas behind Linear Regression
+1- Use least squares (sums of squared residuals)
+2- Calculate the $R^2$
+3- Calculate the p-value of the $R^2$
+
+<a> This the fitted line with the equation of $y=0.1+0.78x$
+<img src="https://imgur.com/x5Y7AZu.png" />
+</a>
+
+#### $R^2$
+$$R^2= \frac{SSR(mean)-SSR(line)}{SSR(mean)}$$
