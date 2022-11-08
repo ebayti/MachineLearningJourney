@@ -32,4 +32,8 @@ Training the algorithm with the whole data is a big mistake!
 
     -   Four-Fold Cross Validation (25% - 75%)
     -   Leave One Out Cross Validaion (1% - 99%) _not really popular_
-    -   Ten-fold cross validation (%10 - 90%) _popular kid_
+    -   Ten-fold cross validation (%10 - 90%) _popular kid_ 
+
+## Confusion Matrix
+
+<img src="https://imgur.com/kMzrXSg.png">
