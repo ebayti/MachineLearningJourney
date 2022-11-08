@@ -101,13 +101,21 @@ For this calculation I added <a href="calculation1.py">calculation1.py</a> scrip
 <img src="https://imgur.com/zwUTjOr.png" />
 
 Therefore; $$Sensitivity=\frac{12}{12+112+83}$$
-$$Sensitivity= 0.06 $$
+$$Sensitivity= 0.06$$
+
 True Positives= 12 --> people loved Troll 2 and our algorithm predicted so. 
 False Negatives= 195 --> people loved other films but our algorithm predicted Troll 2
+
 ---
 **Specificity**: since this is the percentage of True Negatives, we will be working with the number of actual people who did not like Troll 2
+
 <img src="https://imgur.com/ejV74vP.png"/>
 
 Therefore; $$Specificity = \frac{23+77+92+17}{23+77+92+17+102+93}$$
+$$Specificity=0.52$$
+
+True Negatives= people did not pick Troll 2 as their favorite and our model did predict so (23+77+92+17)
+False Positives= people did not pick Troll 2 as their favorite and our favorite but our algorithm predicted Troll 2
+
 
 
