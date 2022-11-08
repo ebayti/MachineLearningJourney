@@ -42,7 +42,7 @@ Training the algorithm with the whole data is a big mistake!
 *False negatives*:Patient but the algorithm classified as healthy
 
             |          -- Actual data --            |
-            | Item         | Price     | # In stock |
+            | Item         | Patient    | Healthy   |
             |--------------|:---------:|:----------:|
-            | Juicy Apples | 1.99      | *7*        |
-            | Bananas      | **1.89**  | 5234       |
+            | Patient      | 142    | 22        |
+            | Healthy      | 29  | 110      |
