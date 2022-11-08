@@ -37,9 +37,12 @@ Training the algorithm with the whole data is a big mistake!
 ## Confusion Matrix
 <img src="https://imgur.com/kMzrXSg.png">
 
-**True positives**: Patients that had heart disease and correctly identified by the algorithm 
-**True negatives**: Healthy people that the algotithm classified as healthy
-**False positives**: Healthy but the alogorithm classified as a patient
+**True positives**: Patients that had heart disease and correctly identified by the algorithm  <br>
+
+**True negatives**: Healthy people that the algotithm classified as healthy <br>
+
+**False positives**: Healthy but the alogorithm classified as a patient <br>
+
 **False negatives**:Patient but the algorithm classified as healthy
 <br>
 
