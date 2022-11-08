@@ -46,3 +46,16 @@ Training the algorithm with the whole data is a big mistake!
 |:---:	|:---:	|:---:	|
 | **Predicted Patient** 	| 142 	| 22 	|
 | **Predicted Healhty** 	| 29 	| 110 	|
+
+--> This is a rough table to evaluate a model. But there are more in depth analysis for a model to be evaluated such as _specificity, sensitivity, AUC, ROC_.
+
+#### 3x3 Confusion Matrix
+<img src="https://imgur.com/rXdNlz6.png">
+- Green boxes are the ones where our model did its work.
+- Red ones are bad.
+
+**Take home message**: Size of our confusion matrix is determined by the amount of the stuff we want to predict. Thus, healthy vs patient task had 2x2 matrix, but the favorite movie task had 3x3 (since we restricted the favorite movie choice to those 3).
+
+<a> This is a 4x4 confusion matrix since there are 4 things to predict.
+  <img src="https://imgur.com/MRtg2zA.png" />
+</a>
