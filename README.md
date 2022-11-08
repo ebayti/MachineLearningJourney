@@ -171,6 +171,7 @@ _But, how to find the best/optimal line_
 
 #### Generic line equation
 $Y=mx+b$
+
 m-> slope of the line
 
 b-> intercept (x=0)
