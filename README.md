@@ -160,3 +160,6 @@ $$ Entropy= -\sum(p(x)log{p(x)})$$
 
 Entropy is highest when same number of different events, and it decreases when there is different events with different amounts.
   <img src="https://imgur.com/3tu4S51.png" />
+
+# Linear Regression
+
