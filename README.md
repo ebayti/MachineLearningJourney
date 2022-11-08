@@ -106,5 +106,3 @@ False Negatives= 195 --> people loved other films but our algorithm predicted Tr
 Therefore; $$Specificity = \frac{23+77+92+17}{23+77+92+17+102+93}$$
 
 
-
-
