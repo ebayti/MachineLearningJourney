@@ -177,6 +177,12 @@ b-> intercept (x=0)
 
 ** For finding the optimized line, we seek to minimize sums of squared residuals**
 <img src="https://imgur.com/CDeJPVN.png" />
-They are the differences between the real data and the model.
+They are the differences between the real data (the observed value of the given x) and the model (calculated value of the given x) .
 
 $$ Sum of squared residuals= \sum ((mx_1+b)-y_1)^2$$
+- Finding the best m and b is called **least squares**.
+
+###### How do we look for the best?
+- Plot the sum of squared residuals and take their derivatives to get slope. When the $\frac{df}{dx}=0$, it is the best!
+
+  <img src="https://imgur.com/tFd55ix.png" />
