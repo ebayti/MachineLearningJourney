@@ -47,7 +47,8 @@ Training the algorithm with the whole data is a big mistake!
 | **Predicted Patient** 	| 142 	| 22 	|
 | **Predicted Healhty** 	| 29 	| 110 	|
 
---> This is a rough table to evaluate a model. But there are more in depth analysis for a model to be evaluated such as _specificity, sensitivity, AUC, ROC_.
+- This is a rough table to evaluate a model. But there are more in depth analysis for a model to be evaluated such as _specificity, sensitivity, AUC, ROC_.
+
 ---
 #### 3x3 Confusion Matrix
 <img src="https://imgur.com/rXdNlz6.png">
@@ -120,4 +121,15 @@ False Positives= 195 --> people did not pick Troll 2 as their favorite and our f
 
 
 
+## Bias and Variance
+Let's look at the following graph. It shows the relationship between a mice's height and weight.
 
+<a> The curved line shows the relationship between the two parameters.
+<img src="https://imgur.com/2QJuac9.png" /> 
+</a>
+
+However, we are going to approximate the relationship between the two parameters with two machine learning methods.(after splitting the data into two as training and testing)
+
+#### 1- Linear Regression (least squares)
+<img src="https://imgur.com/rSR2cG1.png">
+With the training set, we are able to draw this line $$ Y= \Beta0+ \Beta X $$
