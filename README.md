@@ -94,7 +94,7 @@ _On the other hand,_ if correctly identifying patients is more important, you sh
   <img src="https://imgur.com/bTRcWnU.png" /> 
  For this type of data; we need to calculate sensitivity and specificity for each parameter.
 
-- For this calculation I added <a href="calculation1.py">calculation1.py</a> script. But the logic works like the below: 
+- For this calculation I added <a href="pythonscripts/specificity_sensitivity_calculation.py">a python script</a>. But the logic works like the below: 
 ---
 
 **Sensitivity**: since this is the percentage of True Positives we are going to work with actual number of people who loved Troll 2
