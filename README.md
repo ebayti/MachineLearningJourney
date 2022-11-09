@@ -231,4 +231,4 @@ $F= \frac{The variation in the data explained by x}{The variaton in the data not
   <img src="https://imgur.com/VTYXi6Y.png" />
 </a>
 
-$F= \frac{(SS(mean-SS(fit))/(P_{fit}-P_{mean}))}{(SS(fit)/n-P_{fit})))}$
+$$F= \frac{(SS(mean-SS(fit))/(P_{fit}-P_{mean}))}{(SS(fit)/n-P_{fit})))}$$
