@@ -225,8 +225,10 @@ $R^2= \frac{The variation in the data explained by x}{The variaton in the data w
 ### $F$ p-value for $R^2$ 
 
 $F= \frac{The variation in the data explained by x}{The variaton in the data not explained by x}$
+ 
 
-
-<a > The denominator of F is basically the sum of residuals!!!!
+<a > The denominator of F is basically the average sum of residuals of the fit!!!!
   <img src="https://imgur.com/VTYXi6Y.png" />
 </a>
+
+$F= \frac{(SS(mean-SS(fit))/(P_{fit}-P_{mean}))}{(SS(fit)/n-P_{fit})))}$
