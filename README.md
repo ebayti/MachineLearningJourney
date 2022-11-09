@@ -1,4 +1,4 @@
-# MachineLearning
+# Machine Learning
  In this repo, I will share my machine learning journey. I picked the <a href="https://www.youtube.com/watch?v=Gv9_4yMHFhI&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF">statquest playlist </a> for getting the theoretical backgorund with the fun of learning.
 
  _Screenshots will be updated and soon_
@@ -200,7 +200,7 @@ $$ Sum of squared residuals= \sum ((mx_1+b)-y_1)^2$$
 
 </a>
 
-#### $R^2$
+### $R^2$
 -> Does our _least squares_ fits the data better than the mean?
 
 $$R^2= \frac{Var(mean)-Var(fit)}{Var(mean)}$$
@@ -222,7 +222,7 @@ $R^2= \frac{The variation in the data explained by x}{The variaton in the data w
   <img src="https://imgur.com/xw4eECe.png" />
 </a>
 
-##### "$F$" p-value for $R^2$ 
+### $F$ p-value for $R^2$ 
 
 $F= \frac{The variation in the data explained by x}{The variaton in the data not explained by x}$
 
