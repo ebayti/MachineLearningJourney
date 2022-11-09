@@ -204,4 +204,4 @@ $$ Sum of squared residuals= \sum ((mx_1+b)-y_1)^2$$
 
 $$R^2= \frac{SSR(mean)-SSR(line)}{SSR(mean)}$$
 
-$R^2$ tells us that whether we have less variation around the line than the mean. In other words, the line (a/b relationship) explains the 81% of the variation!!
+$R^2$ tells us that whether we have less variation around the line than the mean. In other words, the line (mouse size/weight relationship) explains the 81% of the variation!!
