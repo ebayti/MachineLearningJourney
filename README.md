@@ -183,7 +183,7 @@ They are the differences between the real data (the observed value of the given 
 $$ Sum of squared residuals= \sum ((mx_1+b)-y_1)^2$$
 - Finding the best m and b is called **least squares**.
  - <small> Least squares will ignore the useless parameters by setting their weight to zero. Thus, useless ones will not effect the performance of the model. But they are not required :D </small>
- 
+
 ###### How do we look for the best?
 - Plot the sum of squared residuals and take their derivatives to get slope. When the $\frac{df}{dx}=0$, it is the best!
 
@@ -218,7 +218,11 @@ $R^2$ tells us that whether we have less variation around the line than the mean
 
 $R^2= \frac{The variation in the data explained by x}{The variaton in the data without taking x into account}$
 
-##### p-value for $R^2$ 
+<a> Basically the proportion of variance in mouse size explained by mouse weigth to the variance of the mouse size (raw variance).
+  <img src="https://imgur.com/xw4eECe.png" />
+</a>
+
+##### "$F$" p-value for $R^2$ 
 
 $F= \frac{The variation in the data explained by x}{The variaton in the data not explained by x}$
 
