@@ -13,7 +13,7 @@
  <img src="https://imgur.com/8NblKmM.png">
  - This guy up here is a simple linear regression example. We can basically predict a person's speed by looking at the amount of yam s/he eats. The black dotted line is our model.
 
- - Dont forget, our aim is to predict, not overfitting!! Eun away from the _Bias-VAriance Tradeoff_
+ - Dont forget, our aim is to predict, not overfitting!! Eun away from the _Bias-Variance Tradeoff_
 
 <strong>Terminology:</strong>
 - Training data: the original data
