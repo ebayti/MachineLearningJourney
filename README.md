@@ -266,3 +266,17 @@ _P-value is number of more extreme values divided by all the values_
 $$ F = \frac{SS(simple)-SS(multiple)/ P_{multiple}-P_{simple}}{SS(multiple)/(n-P_{multiple})} $$
 
 If the $F$ is big and the $p-value$ is small; conducting a multiple regression is a good idea!
+
+# ROC and AUC
+ ### Receiver Operator Characteristic (ROC)
+- It summarizes confusion matrices information. It helps us to identify best threshold for our classification method.
+<a > Graph for False positive rate and True positive rate relationship
+  <img src="https://imgur.com/ocx76Jq.png" /> y-axis: True positive rate, x-axis: False positive rate 
+</a>
+
+-The y axis shows the actual obese people
+-The x-axis shows the not obese people who are classified as obese
+ _Precision can also be used if you are dealing with rare cases! ($\frac{True Positives}{True Positives + False Positives}$)_   
+ ### Area Under the Curve (AUC)
+-    AUC is used to compare ROCs. So, if you want to compare your logistic regression ROC and Random Forest ROC, you would look for AUCs.  
+- Greater is better.
