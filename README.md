@@ -202,6 +202,26 @@ $$ Sum of squared residuals= \sum ((mx_1+b)-y_1)^2$$
 #### $R^2$
 -> Does our _least squares_ fits the data better than the mean?
 
-$$R^2= \frac{SSR(mean)-SSR(line)}{SSR(mean)}$$
+$$R^2= \frac{Var(mean)-Var(fit)}{Var(mean)}$$
 
-$R^2$ tells us that whether we have less variation around the line than the mean. In other words, the line (mouse size/weight relationship) explains the 81% of the variation!!
+$Variance= \frac{SS}{n}$
+* SS = Sum of Squares
+* n = number of data/things/stuff
+* Var(fit) can never be greater than the Var(mean) since Var(mean) is the raw variation in the data
+
+Thus, _variance_ is the **average sum of squares**!
+
+$R^2$ tells us that whether we have less variation around the line than the mean. In other words, the line (mouse size/weight relationship) explains the x% of the variation!!
+
+--> i.e Heavier mices are bigger and vice versa.
+
+$R^2= \frac{The variation in the data explained by x}{The variaton in the data without taking x into account}$
+
+##### p-value for $R^2$ 
+
+$F= \frac{The variation in the data explained by x}{The variaton in the data not explained by x}$
+
+
+<a > The denominator of F is basically the sum of residuals!!!!
+  <img src="https://imgur.com/VTYXi6Y.png" />
+</a>
