@@ -232,3 +232,37 @@ $F= \frac{The variation in the data explained by x}{The variaton in the data not
 </a>
 
 $$F= \frac{(SS(mean-SS(fit))/(P_{fit}-P_{mean}))}{(SS(fit)/n-P_{fit})))}$$
+
+**$P_{fit}$**= number of parameters for fit. Which is $Y=mx+b$ Thus it is 2; intercept and the slope. Basically, this equation shows the number of extra parameters we have in the fit.
+
+**$P_{mean}$**= number of parameters of the mean. Which is $Y=b$. Thus 1; only the intercept.
+
+Good fit --> Large F value.
+
+-> We calculate the p-value by comparing the F value of our fit and F value of randomly generated data and their fit. If the chance of getting an equal or higher value is huge, then our p-value is not good enough.
+
+_P-value is number of more extreme values divided by all the values_ 
+
+##### Linear Regression Summary
+**1)** Linear Regression quantifies the relationship in the data;
+  - how well our parameters explain the variance in the data: $R^2$
+    - $R^2$ should be large!
+**2)** Linear Regression determines the reliability of our quantified relationship.
+  - $F$ and $p-value$.
+    - $F$ should be large, $p-value$ should be small!
+
+
+# Multiple Regression
+<a> Simple vs Multiple Regression
+  <img src="https://imgur.com/5NLXU2W.png" />
+</a>
+- Calculating the $R^2$ is the same
+
+- Calculating $p-value$ is a bit different. Because $P_{fit}$ is 3 or more when we are dealing with multiple regression.
+
+#### If you want to compare simple vs multiple regression
+- $F$ eqaution will differ. We will omit the $SS(mean)$ and replace it with $SS(simple)$.
+
+$$ F = \frac{SS(simple)-SS(multiple)/ P_{multiple}-P_{simple}}{SS(multiple)/(n-P_{multiple})} $$
+
+If the $F$ is big and the $p-value$ is small; conducting a multiple regression is a good idea!
